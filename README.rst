@@ -20,8 +20,8 @@ that identify information about when/where/how to populate the records/rows for 
 The parser will also take an optional input of regular expressions to identify rows to delete, or the 
 actual row numbers to delete. This is especially helpful if the text has repeating headers and footers. 
 
--------
 TO DO:
+------
 
 learn how to write python
 
@@ -29,21 +29,21 @@ Add dependencies (pandas, clipboard?, re)
 
 Come up with class/method/functions. General thoughts are:
 import_text - gets the data into python via clipboard or txt file. user must open PDF file, 
-    select all, copy, then paste to txt or unload clipboard ***I would love to find a way to replace this
-    with a pythonic method, but I can't find any solutions that provide text in exactly the same format
-    as you get when you open PDF file, select all, copy, and paste***
+select all, copy, then paste to txt or unload clipboard ***I would love to find a way to replace this
+with a pythonic method, but I can't find any solutions that provide text in exactly the same format
+as you get when you open PDF file, select all, copy, and paste***
 
 ignore_rows - takes a list of regular expressions or row numbers, and ignores rows that match.  
-    (Make sure it can handle both regex and number)
+(Make sure it can handle both regex and number)
 
 column - object that represents each column of information desired. has the following attributes/methods/whatever:
-    .dtype - type of data in the column, can be str, int, float, list, date. defaults to str, unless all match another... 
-        (maybe let pandas try and figure it out)
-    .marker - regex expression (maybe allow a list?) to indicate what exactly is wanted from each "row" of information
-    .optional - flag indicating whether the column is optional or not
-    .order - indicates the order columns are populated. this is important in case of conflicting regular expressions
-    .status - (0,1, or 2?) during the iteration of populating each row, indicates whether column in that row is
-        unpopulated, inprocess, or complete
+.dtype - type of data in the column, can be str, int, float, list, date. defaults to str, unless all match another... 
+(maybe let pandas try and figure it out)
+.marker - regex expression (maybe allow a list?) to indicate what exactly is wanted from each "row" of information
+.optional - flag indicating whether the column is optional or not
+.order - indicates the order columns are populated. this is important in case of conflicting regular expressions
+.status - (0,1, or 2?) during the iteration of populating each row, indicates whether column in that row is
+unpopulated, inprocess, or complete
         
 MORE TO COME
     
