@@ -1,4 +1,4 @@
-parsicle
+parsable
 =======================
 This is just another parser, designed to parse table-like data extracted as text from PDF files via copy/paste.
 The desired output is a pandas dataframe.
