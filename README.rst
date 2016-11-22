@@ -1,7 +1,7 @@
 parsable
 =======================
 This is just another parser, designed to parse table-like data extracted as text from PDF files via copy/paste.
-The desired output is a pandas dataframe. I'm a CPA, and not a programmer, other than I've been playing around
+Then it can be downloaded as a csv/excel/dataframe?. I'm a CPA, and not a programmer, other than I've been playing around
 with Python for the past couple years and figured out it is awesome, and I want it to do 90% of my work for me.
 So here I am, trying to make it do my work for me, and at the same time help other people do their work for them too.
 
