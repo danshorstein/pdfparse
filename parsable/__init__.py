@@ -11,4 +11,4 @@ Basic parsable usage:
    
 """
 
-print('WORKING ON THIS!!!')
+from core import *

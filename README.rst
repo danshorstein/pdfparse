@@ -25,8 +25,6 @@ TO DO:
 
 learn how to write python
 
-Add dependencies (pandas, clipboard?, re)
-
 Come up with class/method/functions. General thoughts are:
 import_text - gets the data into python via clipboard or txt file. user must open PDF file, 
 select all, copy, then paste to txt or unload clipboard ***I would love to find a way to replace this
