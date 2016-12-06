@@ -62,7 +62,7 @@ setup(
         'parsable.api',
         'parsable.fil_io',
         'parsable.regex_stuff',
-        'parsable.tools']),
+        'parsable.tools'],
 
     # Alternatively, if you want to distribute just a my_module.py, uncomment
     # this:
