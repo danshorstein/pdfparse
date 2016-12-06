@@ -8,6 +8,7 @@ Then you can use parsable to specify column names and regular expressions for ea
 column's data. The rows are determined based on the column regular espressions plus either
 spaces, or a seperator passed in as a regular expression.
 
+install with pip install git+git://git@github.com/danshorstein/parsable
 
 TO DO:
 ------
