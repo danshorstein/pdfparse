@@ -1,13 +1,13 @@
 # -*- coding: utf-8 -*-
 
 """
-parsable PDF and other semi-structured table parsing
+pdfparse - PDF and other semi-structured table parsing
 ~~~~~~~~~~~~~~~~~~~~~
-Parsable is a table-oriented parser designed to extract data from PDF files in semi-
+pdfparse is a table-oriented parser designed to extract data from PDF files in semi-
 structured table format
 Basic simpleparse usage:
-   >>> import parsable
-   >>> parse = parsable.simpleparse(...
+   >>> import pdfparse
+   >>> parse = pdfparse.simpleparse(...
 
 #TODO - FINISH!!!!....
 
@@ -15,7 +15,7 @@ Basic simpleparse usage:
 :license: MIT license, see LICENSE for more details.
 """
 
-__title__ = 'parsable'
+__title__ = 'pdfparse'
 __version__ = '0.0.1'
 __author__ = 'Daniel Shorstein'
 __license__ = 'MIT License'
