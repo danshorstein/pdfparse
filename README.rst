@@ -10,6 +10,9 @@ spaces, or a seperator passed in as a regular expression.
 
 install with pip install git+git://github.com/danshorstein/pdfparse
 
+If you have a complex PDF file w/ two lines for each row, you can create two output 
+dataframes, then concatenate them. 
+
 TO DO:
 ------
 
