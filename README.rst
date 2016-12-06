@@ -1,4 +1,4 @@
-parsable
+pdfparse
 =======================
 This is a simple parser designed to help parse table-like data from PDF files.
 
